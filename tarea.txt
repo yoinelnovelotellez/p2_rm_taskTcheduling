@@ -1,0 +1,32 @@
+IDEA DE TAREA----------------------------------------------
+
+- Detectar personas y coger objetos (botella plato y bola con anilla (bolsa))
+- Robot que te siga
+
+ADICIONAL: 
+  - Que haga SLAM para actualizar el mapa que utilice
+  
+  
+  
+Implemanetaciones
+
+1. Reconocer personas mediante visión
+  - como simular una persona en movimiento desde gazebo y detectar con red neuronal
+  - Usar un nodo que publique un objetivo dinámico
+  - Usar etiquetas en persona
+  
+2. Seguir personas y navegar evitando obstáculos
+  - Paquete que navega mediante una posición objetivo: Lectura RGBD para obtener la posición de la persona en el mapa.
+  
+3. HRI (Human-Robot interaction)
+  - Gestos de la mano 
+  - Simular botones/App móvil publicando por topic
+  
+4. Reconocer objetos para el grasping
+  - Etiqueta QR
+  - Forma y color (técnicas de visión clásica)
+  
+5. Coger objeto
+  - Programar distintos métodos de grasping
+  
+  
