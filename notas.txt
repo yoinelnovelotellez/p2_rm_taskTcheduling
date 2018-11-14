@@ -1,0 +1,27 @@
+
+Opciones organizacion de tareas
+	- Maquinas de estados finitos
+	- Arboles de comportamiento - 
+
+Pensar tarea en 2 semanas (a ser posible que pueda probarse en robot real)
+
+
+Solo implementado sin utilizar organizacion de tareas: nota <=7
+Con arbol de comportamiento o maquina de estados: nota <= 8
+Para mas de 8: Implementar tanto arbol como maquina de estados y utilizar vision!!
+
+
+El stack de navegacion de ROS permite indicarle al robot unas coordenadas de un mapa y, conociendo mapa y pos. actual, navegara hasta el destino por ruta corta y evitando obstaculos
+
+
+
+#######################################
+#N O T A S   A R B O L E S   D E   C O M P O  R T A M I E N T O #
+#######################################
+
+OJO! El arbol exige tiempos de reaccion, son sincronos y si una tarea requiere excesivo tiempo, se cortara y volvera al estado inicial
+comportamientos mas a la izq tienen mas prioridad
+
+Decoradores: Modificar el comportamiento de selectores o de bloques que administran secuencias (de waypoints, por ejemplo)
+
+Los nodos devuelven 3 estados: Success, failure y running
