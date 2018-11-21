@@ -1,7 +1,10 @@
 IDEA DE TAREA----------------------------------------------
 
-- Detectar personas y coger objetos (botella plato y bola con anilla (bolsa))
-- Robot que te siga
+- Adaptar mapa
+- Localizarse dentro de un mapa. 
+- Ir a estanterías de posición fija con tres alturas
+- Reconocer el objeto (por color) de la estanteria señalada
+- "Cojer" el objeto y llevarlo a una cinta transportadora.
 
 ADICIONAL: 
   - Que haga SLAM para actualizar el mapa que utilice
@@ -34,10 +37,5 @@ Implemanetaciones
 ## P A S O S  ##
 ################
 
-0. IR desde donde se este hasta la MESA (pose fija)
-1. Recibir pose por topic e ir desde donde se esta a la mesa y de ahi a la pose recibida
-2. Recibir pose y peticion de objeto deseado, ir a mesa y DETECTAR donde esta el objeto en la mesa
-3. Recibir pose y peticion de objeto deseado, ir a mesa y detectar donde esta el objeto en la mesa, COGER y llevar a pose recibida
-4. CALCULAR POSE SIGUIENDO PERSONA, recibir peticion de objeto, ir a mesa, detectar obj, coger y llevar
-5. Calcular pose siguiendo a persona, recibir peticion de objeto POR GESTOS, ir a mesa, detectar obj, coger y llevar
+
 
