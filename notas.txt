@@ -25,3 +25,8 @@ comportamientos mas a la izq tienen mas prioridad
 Decoradores: Modificar el comportamiento de selectores o de bloques que administran secuencias (de waypoints, por ejemplo)
 
 Los nodos devuelven 3 estados: Success, failure y running
+
+
+
+######################################
+http://bit.ly/robots-moviles-UA
