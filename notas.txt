@@ -29,4 +29,4 @@ Los nodos devuelven 3 estados: Success, failure y running
 
 
 ######################################
-http://bit.ly/robots-moviles-UA
+http://bit.ly/robots-moviles-UA -> alternativa: turtlebot_in_stage.launch
