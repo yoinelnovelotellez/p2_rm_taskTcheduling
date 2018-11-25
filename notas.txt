@@ -30,3 +30,16 @@ Los nodos devuelven 3 estados: Success, failure y running
 
 ######################################
 http://bit.ly/robots-moviles-UA -> alternativa: turtlebot_in_stage.launch
+
+
+
+###########################################
+###################################################
+###########################################
+
+Para publicar goals:
+rostopic pub /move_base_simple/goal geometry_msgs/PoseStamped '{header: {stamp: now, frame_id: "map"}, pose: {position: {x: 1.0, y: 0.0, z: 0.0}, orientation: {w: 1.0}}}'
+
+
+Tutorial con turtlesim para guiar a la tortuga... solo vale para espacios vacios??
+http://wiki.ros.org/turtlesim/Tutorials/Go%20to%20Goal
