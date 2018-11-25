@@ -43,3 +43,7 @@ rostopic pub /move_base_simple/goal geometry_msgs/PoseStamped '{header: {stamp: 
 
 Tutorial con turtlesim para guiar a la tortuga... solo vale para espacios vacios??
 http://wiki.ros.org/turtlesim/Tutorials/Go%20to%20Goal
+
+Tutorial publicación de gals:
+http://wiki.ros.org/navigation/Tutorials/SendingSimpleGoals
+
