@@ -1,0 +1,9 @@
+#########
+Debatimos la aplicación a realizar, llegado a la conclusión de que haremos un robot de logística interna. Se le pedirá un objeto definido por dos variables (pequeño/mediano/grande y rojo/azul/verde). El robot entrará al almacén, irá a donde se almacenen los del tamaño pedido y por visión cogerá lo del color correspondiente.
+
+El almacén por tamaño serán varios grupos de mesas (cada uno formado po una roja, otra azul y otra verde), un grup para objetos pequeños, otro para objetos medianos y otro para objetos grandes.
+
+En el grupo de mesas de objetos pequeños, sobre la mesa roja habrán objetos pequeños de tipo 1, en la azul, objetos peq. de tipo 2 y en la verde, los peq. de tipo 3.
+
+
+
