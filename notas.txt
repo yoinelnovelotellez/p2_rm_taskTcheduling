@@ -60,5 +60,9 @@ Paquete con herramientas de OpenCV: http://wiki.ros.org/opencv_apps
 Crear paquete para nodo C++ de arriba:
 	catkin_create_pkg thresholder cv_bridge image_transport roscpp sensor_msgs std_msgs
 
-Lanzar cam del portatil + remapping:
-	roslaunch video_stream_opencv webcam.launch /webcam/webcam_image_view/output:=camera/image
+Anadir al CMakeLists.txt (haiendo llamado al codig de nodo "image_subscriber.cpp"):
+	add_executable(image_subscriber src/image_subscriber.cpp)
+	target_link_libraries(image_subscriber ${OpenCV_LIBS} ${catkin_LIBRARIES})
+	add_dependencies(image_subscriber thresholder)
+
+	
