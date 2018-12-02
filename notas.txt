@@ -87,3 +87,4 @@ Herramienta para coger valoes de HSV:
 		V: de 102 a 255
 	EXTRA: Calculadora regla de 3: https://es.calcuworld.com/calculadoras-matematicas/calculadora-de-regla-de-tres/
 	
+	Umbralizacion en codigo: https://docs.opencv.org/3.4/da/d97/tutorial_threshold_inRange.html
