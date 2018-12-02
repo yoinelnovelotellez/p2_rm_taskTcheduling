@@ -6,4 +6,11 @@ El almacén por tamaño serán varios grupos de mesas (cada uno formado po una r
 En el grupo de mesas de objetos pequeños, sobre la mesa roja habrán objetos pequeños de tipo 1, en la azul, objetos peq. de tipo 2 y en la verde, los peq. de tipo 3.
 
 
+#########
+Creamos el mapa -> un pasillo en L con una puerta que accedía a una sala grande donde estarán las mesas a un lado y unas ventanas donde el robot entregará las cosas en el lado opuesto. NO se puede abrir con ROS Indigo porque el mapa lo hicimos en el Gazebo de Kinetic, que usa la version 1.6 de SDF y el Gazebo de Indigo utiliza la 1.4. Intentamos crear el mapa en el Gazebo de Indigo para ver si habia compatibilidad hacia arriba pero NO se podia -> Gazebo se cortaba al guardar fallando al crear nuevas ventanas (libGL error: failed to create drawable) por temas de grafica desfasada y/o insuficiente potencia del PC...
 
+Ya tenemos un paquete que publica goals. Ahora vamos a hacer un nodo que umbralice la imagen y que publique las areas consideradas azules, rojas y amarillas. El programa principal recibira una peticion de objeto, viajara al grupo de mesas deseado, rotara para ver donde esta el mayor area del color pedido e ira almacenando la rotacion para la que el area roja, azul y amarilla son maximas. "Cogera" el objeto y lo "entregara" por la ventana pedida.
+
+IMPLEMENTAR CON ARBOL DE COMPORTAMIENTO O MAQUINA DE ESTADOS FINITOS!!!
+
+Escalabilidad: Poner varios almacenes, pedir cosas por voz, dar enfoque practico (seguridad de acceso, manipulacion o extraccion; logistica interna; tienda; joyeria, etc...)
