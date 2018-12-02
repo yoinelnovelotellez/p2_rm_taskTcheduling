@@ -56,3 +56,6 @@ Tutorial suscribirse topics imagen (c++): http://wiki.ros.org/image_transport/Tu
 Paquete con herramientas de OpenCV: http://wiki.ros.org/opencv_apps
 	7. Image filter nodes
 		7.1. rgb_color_filter
+
+Crear paquete para nodo C++ de arriba:
+	catkin_create_pkg thresholder cv_bridge image_transport roscpp sensor_msgs std_msgs
