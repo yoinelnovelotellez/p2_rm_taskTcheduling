@@ -65,4 +65,25 @@ Anadir al CMakeLists.txt (haiendo llamado al codig de nodo "image_subscriber.cpp
 	target_link_libraries(image_subscriber ${OpenCV_LIBS} ${catkin_LIBRARIES})
 	add_dependencies(image_subscriber thresholder)
 
+Lo de anadir al CMakeLists lo extrage de https://answers.ros.org/question/286128/cv_bridge-tutorial-example-not-compiling-in-ros-kinetic-and-ubuntu-1604/
+
+Herramienta para coger valoes de HSV: 
+	https://alloyui.com/examples/color-picker/hsv
+	OJO! OpenCV y la herramienta notienen los mismos valores
+	OpenCV: el H va de 0 a 180 y S y V van de 0 a 255
+	alloyui: el H va de 0 a 359 y S y V van de 0 a 100
+	
+	Alloyui:
+		Rojo: 0, 100, 100 -> H de 0 a 40 y de 310 a 359
+		Verde: 120, 100, 100 -> H de 70 a 150
+		Azul: 240, 100, 100 -> H de 160 a 260
+		S: de 50 a 100
+		V: de 40 a 100
+	OpenCV
+		Rojo: de 0 a 20.055710306406684 y de 155.4317548746518 a 180
+		Verde: de 35.0974930362117 a 75.20891364902506
+		Azul: de 80.22284122562674 a 130.36211699164346
+		S: de 127.5 a 255
+		V: de 102 a 255
+	EXTRA: Calculadora regla de 3: https://es.calcuworld.com/calculadoras-matematicas/calculadora-de-regla-de-tres/
 	
