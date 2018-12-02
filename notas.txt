@@ -53,3 +53,6 @@ CREACION DE MAPA
 MIRAR PR0 -> Crear paquete, meter dentro los archivos del turtlebot_gazebo, coger mapa creado ("mapa", .config y .sdf) y pegar los 3 archivos en la carpeta launch. Indicar el .sdf en "turtlebot_world.launch".
 
 Tutorial suscribirse topics imagen (c++): http://wiki.ros.org/image_transport/Tutorials/SubscribingToImages 
+Paquete con herramientas de OpenCV: http://wiki.ros.org/opencv_apps
+	7. Image filter nodes
+		7.1. rgb_color_filter
