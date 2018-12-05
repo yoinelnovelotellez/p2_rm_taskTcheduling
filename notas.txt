@@ -88,3 +88,42 @@ Herramienta para coger valoes de HSV:
 	EXTRA: Calculadora regla de 3: https://es.calcuworld.com/calculadoras-matematicas/calculadora-de-regla-de-tres/
 	
 	Umbralizacion en codigo: https://docs.opencv.org/3.4/da/d97/tutorial_threshold_inRange.html
+	
+	
+	
+	
+##########################################################################
+	      POSICIONES OBJETIVO DEL ROBOT EN EL MAPA
+##########################################################################
+
+Entrada del mapa: 
+x = -12
+y = 10
+z = 0
+roll = 0
+pitch = 0
+yaw = 0
+
+Frente a mesas pequeñas:
+x = -1.5
+y = 5
+z = 0
+roll = 0
+pitch = 0
+yaw = pi
+
+Frente a mesas medianas:
+x = 3
+y = 5
+z = 0
+roll = 0
+pitch = 0
+yaw = pi
+
+Frente a mesas grandes:
+x = 3.5
+y = 1.5
+z = 0
+roll = 0
+pitch = 0
+yaw = 0
