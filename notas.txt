@@ -131,3 +131,6 @@ yaw = 0
 
 Crear ground truth a prtir de .world:
 https://github.com/hyfan1116/pgm_map_creator
+
+Falla compilando, probamos el paquete en el qe se basa y falla en lo mismo, al compilar mensajes custom.
+Hay que descargar "protobuf-compiler" (sudo apt install protobuf-compiler)
