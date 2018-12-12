@@ -127,3 +127,7 @@ z = 0
 roll = 0
 pitch = 0
 yaw = 0
+
+
+Crear ground truth a prtir de .world:
+https://github.com/hyfan1116/pgm_map_creator
